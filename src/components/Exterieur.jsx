@@ -11,6 +11,7 @@ import {
 import { Canvas } from '@react-three/fiber';
 import House from './House';
 
+
 const Exterieur = () => {
 
   return (
