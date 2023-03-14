@@ -4,9 +4,9 @@ import { useGLTF } from "@react-three/drei";
 
 
 const House = () => {
-    const house = useGLTF("/models/mobius_house.glb");
+    const mobius = useGLTF("/models/mobius_house.glb");
   return (
-    <primitive object={house.scene}/>
+    <primitive object={mobius.scene}/>
   )
 }
 
