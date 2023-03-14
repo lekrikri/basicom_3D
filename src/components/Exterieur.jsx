@@ -9,7 +9,7 @@ import {
   Stage,
 } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber';
-import House from './house';
+import House from './House';
 
 const Exterieur = () => {
 
