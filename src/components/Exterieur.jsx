@@ -1,10 +1,8 @@
 import React from 'react'
 import {
-  Html,
   ContactShadows,
   PresentationControls,
   Float,
-  useGLTF,
   OrbitControls,
   Stage,
 } from "@react-three/drei";
