@@ -33,7 +33,7 @@ const Web = () => {
               transform
               wrapperClass="htmlScreen"
               distanceFactor={1.47}
-              position={[-5, -20.5, -13.2]}
+              position={[-5, -5.5, -13.2]}
               rotation-x={-0.256}
               scale={2}
             >

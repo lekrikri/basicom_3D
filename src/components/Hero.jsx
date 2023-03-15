@@ -71,7 +71,7 @@ font-size: 20px;
 color: #50B3E8;
 
  @media only screen and (max-width: 768px) {
-  padding: 40px;
+  padding: 60px;
   font-size: 16px;
   top: auto;
   left: auto;
@@ -108,6 +108,7 @@ const Right = styled.div`
  @media only screen and (max-width: 768px) {
   flex: 1;
   width: 100%;
+  padding: 20%;
  }
 `
 const Img = styled.img`
@@ -125,6 +126,7 @@ const Img = styled.img`
  @media only screen and (max-width: 768px) {
   width: 300px;
   height: 300px;
+  bottom: 30%;
  }
 
  @keyframes animate {
@@ -132,9 +134,6 @@ const Img = styled.img`
     transform: translateY(20px);
   }
  }
-
-
-
 `
 
 const Hero = () => {
@@ -157,7 +156,7 @@ const Hero = () => {
           <OrbitControls enableZoom={false}/>
           <ambientLight intensity={0.5}/>
           <directionalLight position={[3,2,1]}/>
-          <Sphere args={[1,100,200]} scale={2.5}>
+          <Sphere args={[1,100,200]} scale={2.5} position={[0,0,0]}>
             <MeshDistortMaterial
             color="#234f78"
             attach="material"

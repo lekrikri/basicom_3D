@@ -56,7 +56,7 @@ const ListItem = styled.li`
  position: relative;
 
  @media only screen and (max-width: 768px) {
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   -webkit-text-stroke: 0px;
  }
@@ -87,6 +87,11 @@ const ListItem = styled.li`
 `
 const Right = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+  position: relative;
+  bottom: 5%;
+ }
 `
 
 

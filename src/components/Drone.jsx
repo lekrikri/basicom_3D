@@ -12,7 +12,7 @@ const Drone = () => {
       action.play();
     }, [animations.actions.hover]);
   return (
-    <primitive object={drone.scene} scale={9.5} position={[-5, -35, 0]} />
+    <primitive object={drone.scene} scale={0.5} position={[-5, -75, 0]} />
   )
 }
 
